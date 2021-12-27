@@ -1,0 +1,46 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 60px;
+  &-sub {
+    background-color: #fff;
+    width: 380px;
+    margin: 0 35px 60px 35px;
+    display: inline-block;
+    padding: 40px;
+    box-shadow: 0px 0px 32px #ff375f1a;
+    text-align: left;
+    border-radius: 15px;
+    .icn {
+      width: 80px;
+      border: 1px solid #ff375f1a;
+      height: 80px;
+      display: flex;
+      background: #ff375f0d;
+      align-items: center;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      justify-content: center;
+    }
+    h1 {
+      margin-top: 20px;
+    }
+    p {
+      color: #919eab;
+      font-size: 20px;
+      line-height: 36px;
+      margin-top: 20px;
+      margin-bottom: 25px;
+    }
+    button {
+      display: inline;
+      justify-content: left;
+      background: transparent;
+      border: none;
+      font-size: 25px;
+      color: rgb(11, 171, 100);
+      font-weight: 700;
+    }
+  }
+}
